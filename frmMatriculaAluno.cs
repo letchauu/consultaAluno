@@ -99,6 +99,16 @@ namespace consultaAluno
             }
             MessageBox.Show("Matrícula realizada com sucesso!");
         }
+
+        private void cmbUnidadeEscolar_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbNomeAluno_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
     }
     

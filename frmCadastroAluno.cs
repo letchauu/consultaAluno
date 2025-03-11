@@ -109,6 +109,11 @@ namespace consultaAluno
                 MessageBox.Show("Dados não salvos.\n\n" + ex.Message); //Exibe uma mensagem de erro ao usuário, incluindo a mensagem de exceção (ex.Message)
             }
         }
+
+        private void txtNome_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

@@ -51,6 +51,7 @@
             this.cmbNomeAluno.Name = "cmbNomeAluno";
             this.cmbNomeAluno.Size = new System.Drawing.Size(210, 28);
             this.cmbNomeAluno.TabIndex = 0;
+            this.cmbNomeAluno.SelectedIndexChanged += new System.EventHandler(this.cmbNomeAluno_SelectedIndexChanged);
             // 
             // cmbNomeCurso
             // 
@@ -156,12 +157,14 @@
             // 
             // cmbUnidadeEscolar
             // 
+            this.cmbUnidadeEscolar.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbUnidadeEscolar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbUnidadeEscolar.FormattingEnabled = true;
             this.cmbUnidadeEscolar.Location = new System.Drawing.Point(316, 443);
             this.cmbUnidadeEscolar.Name = "cmbUnidadeEscolar";
             this.cmbUnidadeEscolar.Size = new System.Drawing.Size(210, 28);
             this.cmbUnidadeEscolar.TabIndex = 12;
+            this.cmbUnidadeEscolar.SelectedIndexChanged += new System.EventHandler(this.cmbUnidadeEscolar_SelectedIndexChanged);
             // 
             // frmMatriculaAluno
             // 
