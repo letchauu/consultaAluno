@@ -119,6 +119,34 @@ namespace consultaAluno
             frmUnidadesEscolares frm = new frmUnidadesEscolares();
             frm.ShowDialog();
         }
+
+        private void txtBuscarAluno_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btnConsultarCurso_Click(object sender, EventArgs e)
+        {
+            frmBuscarCurso frm = new frmBuscarCurso();
+            frm.ShowDialog();
+        }
+
+        private void btnConsultarEscola_Click(object sender, EventArgs e)
+        {
+            frmBuscarEscola frm = new frmBuscarEscola();
+            frm.ShowDialog();
+        }
+
+        private void btnConsultarMatricula_Click(object sender, EventArgs e)
+        {
+            frmBuscarMatricula frm = new frmBuscarMatricula();
+            frm.ShowDialog();
+        }
     }
 }
    

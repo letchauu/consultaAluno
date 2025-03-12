@@ -38,6 +38,9 @@
             this.btnAtualizarAluno = new System.Windows.Forms.Button();
             this.btnMatricularAluno = new System.Windows.Forms.Button();
             this.btnUnidadesEscolares = new System.Windows.Forms.Button();
+            this.btnConsultarCurso = new System.Windows.Forms.Button();
+            this.btnConsultarEscola = new System.Windows.Forms.Button();
+            this.btnConsultarMatricula = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,7 +48,7 @@
             // 
             this.button1.Location = new System.Drawing.Point(52, 483);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(152, 53);
+            this.button1.Size = new System.Drawing.Size(117, 41);
             this.button1.TabIndex = 0;
             this.button1.Text = "Consultar todos Alunos";
             this.button1.UseVisualStyleBackColor = true;
@@ -59,6 +62,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(910, 320);
             this.dataGridView1.TabIndex = 1;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // btnAdicionar
             // 
@@ -97,6 +101,7 @@
             this.txtBuscarAluno.Name = "txtBuscarAluno";
             this.txtBuscarAluno.Size = new System.Drawing.Size(377, 26);
             this.txtBuscarAluno.TabIndex = 5;
+            this.txtBuscarAluno.TextChanged += new System.EventHandler(this.txtBuscarAluno_TextChanged);
             // 
             // btnBuscarAluno
             // 
@@ -110,9 +115,9 @@
             // 
             // btnAtualizarAluno
             // 
-            this.btnAtualizarAluno.Location = new System.Drawing.Point(224, 483);
+            this.btnAtualizarAluno.Location = new System.Drawing.Point(175, 483);
             this.btnAtualizarAluno.Name = "btnAtualizarAluno";
-            this.btnAtualizarAluno.Size = new System.Drawing.Size(143, 53);
+            this.btnAtualizarAluno.Size = new System.Drawing.Size(114, 41);
             this.btnAtualizarAluno.TabIndex = 7;
             this.btnAtualizarAluno.Text = "Atualizar Aluno";
             this.btnAtualizarAluno.UseVisualStyleBackColor = true;
@@ -138,12 +143,45 @@
             this.btnUnidadesEscolares.UseVisualStyleBackColor = true;
             this.btnUnidadesEscolares.Click += new System.EventHandler(this.button2_Click);
             // 
+            // btnConsultarCurso
+            // 
+            this.btnConsultarCurso.Location = new System.Drawing.Point(52, 530);
+            this.btnConsultarCurso.Name = "btnConsultarCurso";
+            this.btnConsultarCurso.Size = new System.Drawing.Size(117, 43);
+            this.btnConsultarCurso.TabIndex = 10;
+            this.btnConsultarCurso.Text = "Consultar Curso";
+            this.btnConsultarCurso.UseVisualStyleBackColor = true;
+            this.btnConsultarCurso.Click += new System.EventHandler(this.btnConsultarCurso_Click);
+            // 
+            // btnConsultarEscola
+            // 
+            this.btnConsultarEscola.Location = new System.Drawing.Point(175, 532);
+            this.btnConsultarEscola.Name = "btnConsultarEscola";
+            this.btnConsultarEscola.Size = new System.Drawing.Size(114, 41);
+            this.btnConsultarEscola.TabIndex = 11;
+            this.btnConsultarEscola.Text = "Consultar Escola";
+            this.btnConsultarEscola.UseVisualStyleBackColor = true;
+            this.btnConsultarEscola.Click += new System.EventHandler(this.btnConsultarEscola_Click);
+            // 
+            // btnConsultarMatricula
+            // 
+            this.btnConsultarMatricula.Location = new System.Drawing.Point(52, 579);
+            this.btnConsultarMatricula.Name = "btnConsultarMatricula";
+            this.btnConsultarMatricula.Size = new System.Drawing.Size(117, 42);
+            this.btnConsultarMatricula.TabIndex = 12;
+            this.btnConsultarMatricula.Text = "Consultar Matrícula";
+            this.btnConsultarMatricula.UseVisualStyleBackColor = true;
+            this.btnConsultarMatricula.Click += new System.EventHandler(this.btnConsultarMatricula_Click);
+            // 
             // frmBuscarAluno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(1056, 633);
+            this.Controls.Add(this.btnConsultarMatricula);
+            this.Controls.Add(this.btnConsultarEscola);
+            this.Controls.Add(this.btnConsultarCurso);
             this.Controls.Add(this.btnUnidadesEscolares);
             this.Controls.Add(this.btnMatricularAluno);
             this.Controls.Add(this.btnAtualizarAluno);
@@ -175,6 +213,9 @@
         private System.Windows.Forms.Button btnAtualizarAluno;
         private System.Windows.Forms.Button btnMatricularAluno;
         private System.Windows.Forms.Button btnUnidadesEscolares;
+        private System.Windows.Forms.Button btnConsultarCurso;
+        private System.Windows.Forms.Button btnConsultarEscola;
+        private System.Windows.Forms.Button btnConsultarMatricula;
     }
 }
 

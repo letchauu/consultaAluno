@@ -63,6 +63,26 @@ namespace consultaAluno.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _29_wallpaper {
+            get {
+                object obj = ResourceManager.GetObject("29-wallpaper", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2960590_abstrato_aquarela_textura_papel_de_parede_fundo_vetor {
+            get {
+                object obj = ResourceManager.GetObject("2960590-abstrato-aquarela-textura-papel-de-parede-fundo-vetor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap iconAluno {
             get {
                 object obj = ResourceManager.GetObject("iconAluno", resourceCulture);

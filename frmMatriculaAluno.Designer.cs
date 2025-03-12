@@ -51,7 +51,7 @@
             this.cmbNomeAluno.Name = "cmbNomeAluno";
             this.cmbNomeAluno.Size = new System.Drawing.Size(210, 28);
             this.cmbNomeAluno.TabIndex = 0;
-            this.cmbNomeAluno.SelectedIndexChanged += new System.EventHandler(this.cmbNomeAluno_SelectedIndexChanged);
+            //this.cmbNomeAluno.SelectedIndexChanged += new System.EventHandler(this.cmbNomeAluno_SelectedIndexChanged);
             // 
             // cmbNomeCurso
             // 
@@ -164,7 +164,7 @@
             this.cmbUnidadeEscolar.Name = "cmbUnidadeEscolar";
             this.cmbUnidadeEscolar.Size = new System.Drawing.Size(210, 28);
             this.cmbUnidadeEscolar.TabIndex = 12;
-            this.cmbUnidadeEscolar.SelectedIndexChanged += new System.EventHandler(this.cmbUnidadeEscolar_SelectedIndexChanged);
+            //this.cmbUnidadeEscolar.SelectedIndexChanged += new System.EventHandler(this.cmbUnidadeEscolar_SelectedIndexChanged);
             // 
             // frmMatriculaAluno
             // 
